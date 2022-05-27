@@ -3,7 +3,8 @@ $cyan: hsl(186, 34%, 60%);
 $dark-brown: hsl(25, 47%, 15%);
 $brown: hsl(28, 10%, 53%);
 $cream: hsl(27, 66%, 92%);
-$orange: hsl(33, 100%, 98%);
+$orange: #f7e9dc;
+$orange2: hsl(33, 100%, 98%);
 
 .column {
   display: flex;
@@ -13,7 +14,6 @@ $orange: hsl(33, 100%, 98%);
   justify-content: end;
   .amount {
     width: 50px;
-    // height: 100px !important;
     background-color: $red;
     border-radius: 5px;
     transition: 0.2s;
