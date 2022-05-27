@@ -1,0 +1,12 @@
+.charts-container {
+  background-color: yellow;
+  display: inline-block;
+  width: 50%;
+
+  .column-container {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: flex-end;
+  }
+}

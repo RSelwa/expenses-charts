@@ -1,0 +1,18 @@
+.charts-container {
+  background-color: yellow;
+  display: inline-block;
+  width: 50%;
+}
+
+.charts-container .column-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+/*# sourceMappingURL=charts.css.map */
