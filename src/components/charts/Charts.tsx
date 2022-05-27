@@ -7,12 +7,18 @@ const Charts = (props: any) => {
     day: string;
     amount: number;
   };
+
+  const max: number = Math.max(
+    ...data.map((e: dataElement) => {
+      return e.amount;
+    })
+  );
   return (
     <div className="charts-container">
       <div className="charts-title">Spending from 7 days</div>
       <div className="column-container">
         {data.map((element: dataElement) => {
-          return <Column day={element.day} amount={element.amount} />;
+          return <Column max={max} day={element.day} amount={element.amount} />;
         })}
       </div>
     </div>
