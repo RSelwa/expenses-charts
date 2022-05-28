@@ -17,18 +17,12 @@
 
 .column .amount {
   width: 50px;
-  background-color: #ec775f;
   border-radius: 5px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
-.column .amount:hover {
-  background-color: #76b5bc;
-}
-
 .column .day {
   margin: 20px 0;
-  color: purple;
 }
 /*# sourceMappingURL=column.css.map */
