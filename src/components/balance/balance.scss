@@ -1,0 +1,34 @@
+.balance-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  .balance {
+    .balance-title {
+      font-size: 12px;
+    }
+    .balance-value {
+      font-weight: 700;
+    }
+  }
+
+  .balance-circle {
+    display: flex;
+    .circle {
+      content: "";
+      width: 40px;
+      height: 40px;
+      border-radius: 999px;
+      box-sizing: border-box;
+    }
+    .circle-white {
+      border: 3px white solid;
+      z-index: 1;
+      transform: translate(20px, 0px);
+    }
+    .circle-brown {
+    }
+  }
+}

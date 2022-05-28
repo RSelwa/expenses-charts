@@ -1,10 +1,16 @@
 .charts-container {
   display: inline-block;
-  width: 50%;
-
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  .charts-title {
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 25px;
+  }
   .column-container {
     display: flex;
     justify-content: space-around;
-    height: 500px;
+    height: 300px;
   }
 }

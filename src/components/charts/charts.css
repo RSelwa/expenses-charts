@@ -1,6 +1,14 @@
 .charts-container {
   display: inline-block;
-  width: 50%;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+}
+
+.charts-container .charts-title {
+  padding: 10px 0;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 .charts-container .column-container {
@@ -9,6 +17,6 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 500px;
+  height: 300px;
 }
 /*# sourceMappingURL=charts.css.map */

@@ -16,7 +16,7 @@
 }
 
 .column .amount {
-  width: 50px;
+  width: 30px;
   border-radius: 5px;
   -webkit-transition: 0.2s;
   transition: 0.2s;

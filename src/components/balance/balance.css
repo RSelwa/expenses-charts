@@ -1,0 +1,45 @@
+.balance-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  color: white;
+}
+
+.balance-container .balance .balance-title {
+  font-size: 12px;
+}
+
+.balance-container .balance .balance-value {
+  font-weight: 700;
+}
+
+.balance-container .balance-circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.balance-container .balance-circle .circle {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.balance-container .balance-circle .circle-white {
+  border: 3px white solid;
+  z-index: 1;
+  -webkit-transform: translate(20px, 0px);
+          transform: translate(20px, 0px);
+}
+/*# sourceMappingURL=balance.css.map */

@@ -1,11 +1,20 @@
-$red: hsl(10, 79%, 65%);
-$cyan: hsl(186, 34%, 60%);
-$dark-brown: hsl(25, 47%, 15%);
-$brown: hsl(28, 10%, 53%);
-$cream: hsl(27, 66%, 92%);
-$orange: #f7e9dc;
-$orange2: hsl(33, 100%, 98%);
-
-body {
-  background-color: $orange;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+* {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+.bold {
+  font-weight: 700;
+}
+.App {
+  height: 100%;
+  display: flex;
+  padding: 0 10%;
+  // padding: 0 25px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  > * {
+    margin: 50px 0;
+  }
 }
